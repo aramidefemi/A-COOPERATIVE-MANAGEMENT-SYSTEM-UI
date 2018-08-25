@@ -1,0 +1,52 @@
+nav.navbar {
+    padding: 30px 68px;
+}
+.navbar-transparent .navbar-nav .nav-link {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold !important;
+line-height: normal;
+font-size: 14px;
+
+color: #222233 !important;
+}
+.nav-btn {
+    background: linear-gradient(180deg, #93D802 0%, #04B648 100%);
+    box-shadow: 2px 4px 6px rgba(189, 189, 189, 0.5);
+    border-radius: 25px;
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14px;
+padding: 7px;
+text-align: center;
+color: #FFFFFF;
+width: 125px;
+height: 33px;
+}
+.navbar-transparent .navbar-nav .nav-link:hover {}
+h2.heading {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 48px;
+margin-top: 200px;
+color: #222233;
+}
+p.heading {
+    font-family: Nunito Sans;
+font-style: normal;
+font-weight: normal;
+line-height: 35px;
+font-size: 18px;
+text-align: justify;
+
+color: #222233;
+}
+.btn {
+    background: linear-gradient(180deg, #93D802 0%, #04B648 100%);
+box-shadow: 2px 4px 6px rgba(189, 189, 189, 0.5);
+border-radius: 25px;
+}
