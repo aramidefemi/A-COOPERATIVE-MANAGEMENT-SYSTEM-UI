@@ -76,7 +76,7 @@
 
 .home-side-bar div {
     background: #222233;
-    width: 275px;
+    width: 276px;
     height: 100%;
  }
  
@@ -395,6 +395,10 @@ ul.colored-list li.greenish:before {
  
 .section-main-body {
     padding: 64px 60px 10px 13px;
+    height: 568px; 
+    contain: content;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .ml-5-lg {
     margin-left: 3rem !important;
@@ -406,6 +410,13 @@ ul.colored-list li.greenish:before {
     display: none;
 }
 @media (max-width: 500px){
+    .section-main-body {
+        padding: 64px 60px 10px 13px;
+        height: 568px;
+        contain: content;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
     .ml-5-lg {
         margin-left: 0rem !important;
     }
@@ -905,4 +916,27 @@ label.badge {
     color: #FFFFFF;
     padding: 2px 5px 0px 5px;
     text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #52bc0099; 
+    border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #52BC00; 
+}
+body {
+    overflow: hidden;
 }
