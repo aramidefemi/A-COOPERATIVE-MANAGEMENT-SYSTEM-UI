@@ -74,7 +74,7 @@
     box-shadow: 2px 4px 6px rgba(189, 189, 189, 0.5);
 }
 
-.home-side-bar div {
+.home-side-bar aside {
     background: #222233;
     width: 276px;
     height: 100%;
@@ -389,12 +389,28 @@ ul.colored-list li.greenish:before {
     text-align:center;
 }
 .navigation-back {
-    margin-bottom: 30px;
-    cursor:pointer;
+    cursor: pointer;
+    position: absolute;
+    top: 60px;
+    left: 306px;
+    width: 100%;
 }
- 
+.navigation-back i {
+    font-size: 20px;
+
+    color: #52BC00;
+ }
+ .navigation-back h2{
+    margin-left: 29px;
+    font-style: normal;
+    display: inline;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: #52BC00;
+} 
 .section-main-body {
-    padding: 64px 60px 10px 13px;
+    padding: 100px 60px 10px 13px;
     height: 568px; 
     contain: content;
     overflow-x: hidden;
@@ -460,15 +476,7 @@ box-shadow: 0px 1px 3px #92919178;;
 }
 
 /* utils end here*/
-.navigation-back h2{
-    font-family: Nunito Sans;
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 16px;
 
-color: #52BC00;
-} 
 
 .big-data-box .body table { 
     padding: 0 65px;
