@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 .navbar-auth {
-    padding: 28px 8px;
+    padding: 25px 8px;
     background: #FFFFFF;
     box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.25);
 }
@@ -163,16 +163,18 @@
     left: 0px;
 }
 .activity-box {
-    width: 250px;
+    width: 100%;
     height: 230px;
-
+    padding: 38px 0;
     background: #FFFFFF;
     box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.25);
     border-radius: 3px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .activity-box img {
-    
+    width: 101px;
+    height: 101px;
 }
 .activity-box p {
     font-family: Nunito Sans;
@@ -395,6 +397,10 @@ ul.colored-list li.greenish:before {
     right: 50px;
     margin-bottom: 30px;
 }
+.navigation-back.type-2 { 
+    right: 0px;
+    margin-bottom: 20px;
+}
 .navigation-back i {
     font-size: 20px;
 
@@ -411,7 +417,7 @@ ul.colored-list li.greenish:before {
 } 
 .section-main-body {
     padding: 60px 60px 10px 120px;
-    height: 568px; 
+    height: 575px;
     contain: content;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -492,6 +498,9 @@ box-shadow: 0px 1px 3px #92919178;;
 }
 .big-data-box .body table.red th {
     color: #FA6541;
+}
+.big-data-box .body table.blue th {
+    color: #2D9CDB;
 }
 .big-data-box .body table.yellow th {
     color: #FFC30E;
@@ -947,4 +956,7 @@ label.badge {
 }
 body {
     overflow: hidden;
+}
+body.auth {
+    overflow: auto;
 }
