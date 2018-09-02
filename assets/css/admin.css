@@ -735,8 +735,8 @@ i.formed {
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    right: 110px;
-    bottom: 100px;
+    right: 115px;
+    bottom: 125px;
 
 }
 
@@ -782,8 +782,8 @@ img.middle.action ~p {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    font-size: 18px;
-    
+    letter-spacing: 1px;
+    font-size: 14px;
     color: #52BC00;
 }
 .pill p {
@@ -791,7 +791,7 @@ img.middle.action ~p {
     font-style: normal;
     font-weight: normal;
     line-height: normal;
-    font-size: 18px;
+    font-size: 14px;
 
     color: #2D9CDB;
 }
@@ -959,4 +959,7 @@ body {
 }
 body.auth {
     overflow: auto;
+}
+.loan-box table tr:last-child td {
+    padding-bottom: 0px;
 }
