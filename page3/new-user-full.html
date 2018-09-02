@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 
 <head>
@@ -40,7 +40,7 @@
     <link id="stylesheet" type="text/css" href="../assets/css/boomerang.min.css" rel="stylesheet" media="screen">
 
     <!-- Custom style - Remove if not necessary -->
-    <link type="text/css" href="../assets/css/custom-style.css" rel="stylesheet">
+    <link type="text/css" href="../assets/css/admin.css" rel="stylesheet">
 
     <!-- Favicon -->
     <link href="../assets/images/favicon.png" rel="icon" type="image/png">
@@ -61,24 +61,24 @@
 
 
 
-                <!-- Navbar -->
                 <nav class="navbar navbar-auth  navbar--bb-1px">
                     <div class="container-fluid navbar-container">
                         <!-- Brand/Logo -->
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" style="margin-right: 10px;
+                        " href="#">
                             <img src="../assets/fundal/logo-name.svg" class="home" alt="Fundal">
                         </a>
-                      
-  
-            <a class="pos-center nav-head-text" href="#">
-                    Home
-                </a>
-  
 
-                         
-                           
-                            <!-- Navbar links -->
- 
+
+                        <a class="text img-center" href="#">
+                            Communities
+                        </a>
+
+
+
+
+                        <!-- Navbar links -->
+
 
                     </div>
                 </nav>
@@ -87,97 +87,101 @@
             <section>
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-3 home-side-bar no-padding">
-                            <div data-stick-in-parent="true">
+                        <div class="col-lg-2 hidden-xs hidden-sm home-side-bar no-padding">
+                                
+                            <aside>
 
 
 
-                                <ul class="categories categories--style-3 pt-60" id="menu_docs" data-children=".item">
+                                <ul class="categories categories--style-3 pt-20" id="menu_docs" data-children=".item">
 
                                     <li class="item">
-                                        <a class="item-active" href="#">
-                                            <img class="img-icon-home" src="../assets/fundal/home/icon/Home Icon.png" />
-                                            <span class="category-name">
-                                                Home
-                                            </span>
+                                        
+                                              <img  src="../assets/fundal/nav/Home Icon.svg" />  
+                                              <a  href="#">
+                                              HOME                             
                                         </a>
                                     </li>
 
+                                    <li class="item item-active">
+                                       
+                                            <img style="width:60px; height: 60px; margin: -11px;" src="../assets/fundal/nav/Profile Icon.svg">
+                                            <a class="" href="#">
+                                                USER MANAGEMENT
+                                           
+                                        </a>
+                                    </li>
                                     <li class="item">
+                                            <img style="    margin-top: 0px;" src="../assets/fundal/nav/My Loans Icon.svg">
                                         <a href="#">
-                                            <img class="img-icon-profile" src="../assets/fundal/home/icon/Profile Icon.png">
-                                            <span class="category-name">
-                                                Profile
-                                            </span>
+                                           
+                                                LOAN MANAGEMENT
+                                           
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="item">
+                                        
+                                            <img   src="../assets/fundal/nav/Community Icon.svg">
+                                            <a href="#">
+                                                COMMUNITY
+                                            
                                         </a>
                                     </li>
                                     <li class="item">
-                                        <a href="#">
-                                            <img class="img-my-loans" src="../assets/fundal/home/icon/My Loans Icon.png">
-                                            <span class="category-name">
-                                                My Loans
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="item">
-                                        <a href="#">
-                                            <img class="img-due-payments" src="../assets/fundal/home/icon/Due Payments Icon.png">
-                                            <span class="category-name">
-                                                Due Payments
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="item">
-                                        <a href="#">
-                                            <img class=" img-my-community" src="../assets/fundal/home/icon/Community Icon.png">
-                                            <span class="category-name">
-                                                Community
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="item">
-                                        <a href="#">
-                                            <img class="img-icon-listings" src="../assets/fundal/home/icon/Listings Icon.png">
-                                            <span class="category-name">
-                                                Listing
-                                            </span>
+                                        
+                                            <img style="margin: -5px -3px;"  src="../assets/fundal/nav/Listings Icon.svg">
+                                            <a href="#">
+                                                LISTINGS
+                                            
                                         </a>
                                     </li>
 
-
+                                    <li class="item">
+                                        
+                                            <img  src="../assets/fundal/nav/Messages.svg">
+                                            <a href="#">
+                                                MESSAGES
+                                            
+                                        </a>
+                                    </li>
                                 </ul>
 
-                                <ul class="categories categories--style-3 pt-60 pb-5" id="menu_docs" data-children=".item">
+                                <ul class="categories categories--style-3 pt-50" id="menu_docs" data-children=".item">
 
-                                    <li class="item py-2">
-                                        <a href="#">
-                                            <img class="img-icon-settings" src="../assets/fundal/home/icon/Settings Icon.png" />
-                                            <span class="category-name">
+                                    <li class="item ">
+                                        
+                                            <img  src="../assets/fundal/nav/Settings Icon.svg" />
+                                            <a href="#">
                                                 Settings
-                                            </span>
+                                            
                                         </a>
                                     </li>
-                                    <li class="item py-2">
-                                        <a href="#">
-                                            <img class="img-icon-help" src="../assets/fundal/home/icon/Help Cemter Icon.png" />
-                                            <span class="category-name">
+                                    <li class="item ">
+                                        
+                                            <img   src="../assets/fundal/nav/Help Cemter Icon.svg" />
+                                            <a href="#">
                                                 Help Center
-                                            </span>
+                                            
                                         </a>
                                     </li>
-                                    <li class="item py-2">
-                                        <a href="#">
-                                            <img class="img-icon-log-out" src="../assets/fundal/home/icon/1031505-512.png" />
-                                            <span class="category-name">
+                                    <li class="item ">
+                                        
+                                            <img style="    width: 30px;
+                                            height: 30px;
+                                            margin: 4px 5px 0;
+                                        "  src="../assets/fundal/nav/1031505-512.svg" />
+                                            <a href="#">
                                                 Log Out
-                                            </span>
+                                            
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </aside>
                         </div>
 
-                        <div class="col-lg-9 pt-5 px-5">
+
+                <div class="col-lg-10 col-sm-12 col-xs-12 section-main-body maxed-out">
                             <div class="card custom-card">
                                 <div class="card-body">
                                     <div class="row">
